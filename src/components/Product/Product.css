@@ -43,3 +43,10 @@
 .btn-cart:hover {
     background-color: orange;
 }
+
+@media (max-width: 768px) {
+    .product {
+        max-width: 100%;
+        /* Product card takes full width on small screens */
+    }
+}

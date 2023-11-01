@@ -53,3 +53,12 @@ hr {
     font-size: 18px;
     align-items: center;
 }
+
+@media (max-width: 768px) {
+    .cart {
+        max-width: 100%;
+        /* Cart takes full width on small screens */
+        padding: 10px;
+        /* Reduce padding for small screens */
+    }
+}

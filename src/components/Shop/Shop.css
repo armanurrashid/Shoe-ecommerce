@@ -9,3 +9,10 @@
     grid-template-columns: repeat(3, 1fr);
     gap: 45px;
 }
+
+@media (max-width: 800px) {
+    .products-container {
+        grid-template-columns: 1fr;
+        /* Single column layout for product listings on smaller screens */
+    }
+}

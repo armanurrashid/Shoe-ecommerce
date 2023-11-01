@@ -21,16 +21,17 @@ nav.header a:hover {
     color: orange;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 780px) {
     .header {
         padding-left: 20px;
         padding-right: 20px;
     }
     nav.header {
-        flex-direction: column;
-        align-items: flex-start;
+        /* flex-direction: column; */
+        /* align-items: flex-start; */
     }
     nav.header a {
-        margin: 10px 0;
+        margin: 10px 6px;
+        /* padding: 10px; */
     }
 }
