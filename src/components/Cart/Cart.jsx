@@ -22,7 +22,6 @@ const Cart = ({ cart }) => {
         <div className='cart'>
             <h3>Order</h3>
             <hr />
-
             <p>Selected item: {quantity}</p>
             <p>Total Price: ${total}</p>
             <p>Total Shipping: ${total_shipping}</p>
